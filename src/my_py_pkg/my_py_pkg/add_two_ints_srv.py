@@ -35,6 +35,8 @@ this will run the server node we can also give basic inputs for these from CLI
 for that:in new terminal
 
 ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: integer_val,b: integer_val}"
+we can also go to the rqt and call the srv using it!
+go to service>service caller>type the fields needed>click call
 
 
 '''
