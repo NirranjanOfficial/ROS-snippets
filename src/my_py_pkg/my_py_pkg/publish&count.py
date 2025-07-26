@@ -37,6 +37,8 @@ class NumberCounter(Node):
         # self.get_logger().info(counter)
         self.publishers_.publish(new_msg)
 
+    #SetBool actually takes 2 respose msg, (Bool)Success, (String)message
+
     def server_callback(self, request, response):
         if request.data:
             self.counter = 0
